@@ -3,7 +3,7 @@ import { getRandomInterviewCover } from "@/lib/utils";
 import { generateText } from "ai";
 import { createGoogleGenerativeAI, google } from "@ai-sdk/google";
 
-export async function Get() {
+export async function GET() {
     return Response.json({ success: true, data: 'Thank You!' }, { status: 200 });
 }
 
